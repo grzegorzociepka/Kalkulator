@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textMultiLine"
+            android:ems="10"
+            android:id="@+id/et"/>
+    <TextView
+            android:id="@+id/tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Siemaszko Miszlę"
+    />
+
+    <Button
+            android:id="@+id/m_button"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Oblicz"
+    />
+    <Button
+            android:text="Pobierz dane"
+            android:onClick="getData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:id="@+id/button"/>
+</LinearLayout>
